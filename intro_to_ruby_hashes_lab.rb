@@ -28,9 +28,9 @@ end
 
 def update_counting_hash(hash, key)
   update_hash = {key => a_value}
-  if update_hash["key"]
-    update_hash["key"] += 1 
-  else update_hash["key"] = 1 
+  if update_hash[key]
+    update_hash[key] += 1 
+  else update_hash[key] = 1 
     end
     return update_hash
 end
