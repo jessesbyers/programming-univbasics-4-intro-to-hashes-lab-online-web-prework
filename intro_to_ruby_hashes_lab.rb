@@ -21,8 +21,8 @@ def my_hash_creator(key, value)
 
 
 def read_from_hash(hash, key)
-  hash = {key => value}
-  hash[:key]
+  read_from_hash = {key => a_value}
+  read_from_hash[:key]
 end
 
 def update_counting_hash(hash, key)
